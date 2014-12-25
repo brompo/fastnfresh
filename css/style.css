@@ -1236,12 +1236,14 @@ td.beauty-hover {
   /*background-color: #f9f9f9;*/
 }
 .box-pricing .box-header {
-  height: 50px;
+  height: 70px;
   padding: 10px 0;
+  vertical-align: middle;
 }
 .box-pricing .box-name {
   padding: 0 10px;
   text-align: center;
+  height:40px;
 }
 .box-pricing .box-name:hover {
   cursor: inherit;
@@ -2368,10 +2370,11 @@ td.beauty-hover {
   padding-left:4px;
   padding-right:3px;
   text-align: center;
+  /*color: #ff962e;*/
 }
 .fnfimagecontainer
 {
- background-color: #FFFFFF; 
+ background-color: #FFFFFF;
 }
 .fnfbutton
 {
@@ -2403,5 +2406,19 @@ width:47px;
   height:40px;
   width:45px;
   text-align: center;
-  border-color: #ff962e;
+}
+.fnfitemname
+{
+  margin:5px;
+  color:#649b33;
+  font-weight: bold;
+}
+img{
+  height: 108px;
+}
+.fnfimagecontainer>img{
+  height: 108px;
+}
+@media (max-width: 400px){
+
 }
