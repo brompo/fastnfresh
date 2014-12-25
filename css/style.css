@@ -338,7 +338,7 @@ a.show-sidebar:hover {
   -webkit-border-radius: 3px 3px 0 0;
   -moz-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0;
-  color: #363636;
+  color: #649b33;
   font-size: 16px;
   position:relative;
   overflow: hidden;
@@ -1223,20 +1223,20 @@ td.beauty-hover {
   transition: 0.5s;
 }
 .box-pricing .row-fluid > div {
-  padding: 18px 15px 8px;
+  /*padding: 18px 15px 8px;*/
   line-height: 1.428571429;
   vertical-align: top;
 }
 .box-pricing .row-fluid.centered > div {
-  background-color: #f5f5f5;
+  /*background-color: #f5f5f5;*/
   padding: 8px;
   text-align: center;
 }
 .box-pricing .row-fluid.centered > div:nth-child(odd) {
-  background-color: #f9f9f9;
+  /*background-color: #f9f9f9;*/
 }
 .box-pricing .box-header {
-  height: 80px;
+  height: 50px;
   padding: 10px 0;
 }
 .box-pricing .box-name {
@@ -2360,4 +2360,48 @@ td.beauty-hover {
   #dashboard_links .nav-pills > li.active > a:before {
     display: none;
   }
+}
+
+/*Added Css By Brian */
+
+.fnfitemcontainer{
+  padding-left:4px;
+  padding-right:3px;
+  text-align: center;
+}
+.fnfimagecontainer
+{
+ background-color: #FFFFFF; 
+}
+.fnfbutton
+{
+  color: #ff962e;
+  background-color: #ffffff;
+  border-color: #ccc;
+  height:40px;
+}
+.fnfbutton:hover
+{
+  background-color: #f5f5f5;
+  color:#649b33;
+}
+.fnfcounter
+{
+  margin-bottom:5px;
+  margin-top:10px;
+}
+.fnfsmbutton
+{
+height:40px;
+background-color:#649b33;
+color:#FFFFFF;
+font-size: 30px;
+width:47px;
+}
+.fnfinput
+{
+  height:40px;
+  width:45px;
+  text-align: center;
+  border-color: #ff962e;
 }
